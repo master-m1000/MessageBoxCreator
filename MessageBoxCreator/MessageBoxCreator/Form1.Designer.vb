@@ -354,11 +354,12 @@ Partial Class Form1
         '
         'BtnExit
         '
+        Me.BtnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnExit.Location = New System.Drawing.Point(93, 263)
         Me.BtnExit.Name = "BtnExit"
         Me.BtnExit.Size = New System.Drawing.Size(116, 23)
         Me.BtnExit.TabIndex = 4
-        Me.BtnExit.Text = "Exit"
+        Me.BtnExit.Text = "Show project at GitHub"
         Me.BtnExit.UseVisualStyleBackColor = True
         '
         'Form1

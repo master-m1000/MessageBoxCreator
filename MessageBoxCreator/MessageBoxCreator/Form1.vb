@@ -84,7 +84,7 @@
     End Sub
 
     Private Sub BtnExit_Click(sender As Object, e As EventArgs) Handles BtnExit.Click
-        Application.Exit()
+        Process.Start("https://github.com/master-m1000/MessageBoxCreator")
     End Sub
 
     Private Declare Function GetIcon Lib "shell32.dll" Alias "ExtractIconA" (ByVal hInst As IntPtr, ByVal lpszExeFileName As String, ByVal nIconIndex As Integer) As IntPtr
