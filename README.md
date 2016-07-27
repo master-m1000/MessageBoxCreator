@@ -3,7 +3,7 @@
 # MessageBoxCreator
 I fed up with writing everytime the long code for a `MessageBox`. I only wanted to fill in the text, but if you want to add an icon or want the Yes-No buttons yout have to write a bit more...
 
-So I made *MessageBoxCreator*. It helps to create MessageBoxes for Visual Basic .NET or C#: Fill in the text, choose the button(s) and the icon and now you can simply copy the code!
+So I made *MessageBoxCreator*. It helps to create `MessageBoxes` for `Visual Basic .NET` or `C#`: Fill in the text, choose the button(s) and the icon and now you can simply copy the code!
 
-## If you're using C#
-If you're using *MessageBoxCreator* for C#, you have to add a `;` at the end of the line!
+## If you're using `C#`
+If you want to create `MessageBoxes` for `C#`, you have to add a `;` at the end of the line! Otherwise you will get an error!
